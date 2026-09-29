@@ -1,308 +1,564 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="icon" href="/favicon.ico">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex, nofollow">
-    <title>TikTok &amp; Shorts Script Timer | 60-Second Teleprompter</title>
-    <meta name="description" content="Calculate exact spoken duration of your TikTok, YouTube Shorts, and Reels scripts based on normal, fast, and energetic speaking speeds.">
-    <link rel="canonical" href="https://us-youtube-shorts-teleprompter.enjoy-onepage.com/">
-
-    <!-- Open Graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="TikTok &amp; Shorts Script Timer | 60-Second Teleprompter">
-    <meta property="og:description" content="Calculate exact spoken duration of your TikTok, YouTube Shorts, and Reels scripts based on normal, fast, and energetic speaking speeds.">
-    <meta property="og:url" content="https://us-youtube-shorts-teleprompter.enjoy-onepage.com/">
-    <meta property="og:site_name" content="Short-Form Video Script Timer">
-    <meta property="og:image" content="https://us-youtube-shorts-teleprompter.enjoy-onepage.com/og-image.png">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="TikTok &amp; Shorts Script Timer | 60-Second Teleprompter">
-    <meta name="twitter:description" content="Calculate exact spoken duration of your TikTok, YouTube Shorts, and Reels scripts based on normal, fast, and energetic speaking speeds.">
-    <meta name="twitter:image" content="https://us-youtube-shorts-teleprompter.enjoy-onepage.com/og-image.png">
-
-    <!-- Schema.org WebApplication -->
-    <script type="application/ld+json">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Short Video Script Timer &amp; Teleprompter | 60-Second Script</title>
+<meta name="description" content="Paste a script to see how long it takes to say at your pace, how many words fit 15, 30 or 60 seconds, then read it on a free scrolling teleprompter.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://us-youtube-shorts-teleprompter.enjoy-onepage.com/">
+<meta name="theme-color" content="#be123c">
+<link rel="icon" href="/favicon.ico">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Script Timer &amp; Teleprompter">
+<meta property="og:title" content="Short Video Script Timer &amp; Teleprompter | 60-Second Script">
+<meta property="og:description" content="Paste a script to see how long it takes to say at your pace, how many words fit 15, 30 or 60 seconds, then read it on a free scrolling teleprompter.">
+<meta property="og:url" content="https://us-youtube-shorts-teleprompter.enjoy-onepage.com/">
+<meta property="og:image" content="https://us-youtube-shorts-teleprompter.enjoy-onepage.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Short Video Script Timer &amp; Teleprompter | 60-Second Script">
+<meta name="twitter:description" content="Paste a script to see how long it takes to say at your pace, how many words fit 15, 30 or 60 seconds, then read it on a free scrolling teleprompter.">
+<meta name="twitter:image" content="https://us-youtube-shorts-teleprompter.enjoy-onepage.com/og-image.png">
+<link rel="alternate" type="application/rss+xml" title="Script Timer &amp; Teleprompter RSS" href="https://us-youtube-shorts-teleprompter.enjoy-onepage.com/rss.xml">
+<link rel="sitemap" type="application/xml" href="https://us-youtube-shorts-teleprompter.enjoy-onepage.com/sitemap.xml">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
       "@type": "WebApplication",
-      "name": "Short-Form Video Script Timer",
+      "@id": "https://us-youtube-shorts-teleprompter.enjoy-onepage.com/#webapp",
+      "name": "Script Timer & Teleprompter",
       "url": "https://us-youtube-shorts-teleprompter.enjoy-onepage.com/",
-      "description": "Calculate exact spoken duration of your TikTok, YouTube Shorts, and Reels scripts based on normal, fast, and energetic speaking speeds.",
       "applicationCategory": "MultimediaApplication",
       "operatingSystem": "All",
-      "inLanguage": "en-US",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      }
+      "inLanguage": "en",
+      "description": "A free script timer and teleprompter for short videos. Paste a script, set or measure your speaking pace in words per minute, see how long it runs and whether it fits 15, 30, 60 seconds or longer, then read it on a word-timed scrolling teleprompter.",
+      "image": "https://us-youtube-shorts-teleprompter.enjoy-onepage.com/og-image.png",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://us-youtube-shorts-teleprompter.enjoy-onepage.com/#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "How is the time calculated?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Time equals the number of words divided by your pace in words per minute, plus any [pause] beats you add. For example, 150 words at 150 words per minute take 60 seconds, and two 1-second pauses make it 62 seconds. Words are counted as groups of letters or numbers separated by spaces." } },
+        { "@type": "Question", "name": "What pace should I use?",
+          "acceptedAnswer": { "@type": "Answer", "text": "About 150 words per minute is a common average for English speech. The best number is your own, so use Measure my pace: read your script aloud once, and the page works out your words per minute and uses it for the timing and the teleprompter." } },
+        { "@type": "Question", "name": "How many words fit in 60 seconds?",
+          "acceptedAnswer": { "@type": "Answer", "text": "At 150 words per minute, about 150 words fit in 60 seconds, 75 in 30 seconds and 37 in 15 seconds. At a faster 165 words per minute, about 165 words fit in 60 seconds. The table on this page updates for your pace." } },
+        { "@type": "Question", "name": "How does the teleprompter keep pace?",
+          "acceptedAnswer": { "@type": "Answer", "text": "It moves word by word at your words per minute and holds on each [pause] for the length you chose, so reading along takes the same time as the estimate. You can pause, restart, change speed while reading, make the text larger and mirror it for a teleprompter glass." } },
+        { "@type": "Question", "name": "Is my script saved or uploaded?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Your script and settings are saved only in this browser so they are there next time. They are never sent to us, and share links contain only your pace and target, not your script. Use Clear script to delete it." } }
+      ]
     }
-    </script>
-
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- Layout Shield: Anti 390px Horizontal Overflow -->
-    <style id="layout-shield">
-        html, body {
-            max-width: 100% !important;
-            width: 100% !important;
-            overflow-x: hidden !important;
-        }
-        main, article, .container {
-            max-width: 100% !important;
-            box-sizing: border-box !important;
-        }
-        .manual-ad-box {
-            width: 100%;
-            max-width: 960px;
-            overflow: hidden;
-            margin: 12px auto;
-        }
-        .manual-ad-box ins {
-            max-width: 100% !important;
-            display: block;
-        }
-    </style>
-  <link rel="alternate" type="application/rss+xml" title="TikTok &amp; Shorts Script Timer | 60-Second Teleprompter" href="https://us-youtube-shorts-teleprompter.enjoy-onepage.com/rss.xml">
-  <link rel="sitemap" type="application/xml" href="https://us-youtube-shorts-teleprompter.enjoy-onepage.com/sitemap.xml">
+  ]
+}
+</script>
+<!-- ADSENSE START: loader -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2228289204702106" crossorigin="anonymous"></script>
+<!-- ADSENSE END: loader -->
+<style>
+:root{--bg:#fdf6f7;--card:#fff;--ink:#2a1016;--muted:#6d5a60;--accent:#be123c;--line:#f3dfe4;--g:#15803d;--r:#b91c1c}
+*{box-sizing:border-box}
+html,body{margin:0;max-width:100%;overflow-x:hidden}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+.header{background:linear-gradient(135deg,#881337,#e11d48);color:#fff;text-align:center;padding:26px 16px 22px}
+.header h1{margin:0;font-size:1.7rem}
+.header-sub{opacity:.92;margin-top:6px;font-size:.95rem}
+.wrap{max-width:1080px;margin:0 auto;padding:12px 14px 8px}
+.grid2{display:grid;grid-template-columns:1fr;gap:14px}
+@media (min-width:1024px){.grid2{grid-template-columns:1fr 1fr;align-items:start}.result{position:sticky;top:12px}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 18px;margin:14px 0}
+.grid2 .card{margin:0}
+.card h2{font-size:1.15rem;margin:4px 0 10px}
+.card h3{font-size:1rem;margin:14px 0 6px}
+.lbl{display:block;font-weight:600;margin:10px 0 4px;font-size:.95rem}
+textarea,input[type=number],select{width:100%;font:inherit;padding:9px 11px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink)}
+textarea{min-height:190px;resize:vertical}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+.row>div{flex:1 1 140px;min-width:0}
+.chk{display:flex;align-items:center;gap:8px;margin:10px 0;font-size:.95rem}
+.hint{font-size:.86rem;color:var(--muted);margin:6px 0}
+.btn{font:inherit;border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:10px;padding:9px 14px;cursor:pointer}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.big{font-size:1.15rem;font-weight:800;padding:12px 18px;width:100%}
+.btn.sm{padding:4px 9px;font-size:.85rem;border-radius:8px}
+.btn.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.err{color:var(--r);font-weight:600;margin:8px 0 0}
+.big-time{font-size:2.6rem;font-weight:800;line-height:1.1;margin:4px 0}
+.fit{font-weight:700;margin:8px 0}
+.fit.ok{color:var(--g)}
+.fit.over{color:var(--r)}
+table{border-collapse:collapse;width:100%;font-size:.92rem;margin-top:6px}
+th,td{border-bottom:1px solid var(--line);padding:5px 6px;text-align:left}
+.measure{border:1px dashed var(--line);border-radius:12px;padding:8px 12px;margin-top:10px}
+.notice{border-color:#fcd34d;background:#fffbeb}
+.faq-item h3{font-size:1rem;margin:12px 0 4px}
+.faq-item p{margin:0;color:#4a3239}
+.src{font-size:.82rem;color:var(--muted)}
+.ad-box{max-width:1080px;margin:10px auto;padding:0 14px;background:transparent;overflow:hidden;text-align:center}
+.ad-top ins{max-height:90px}
+.footer{text-align:center;font-size:.85rem;color:var(--muted);padding:18px 14px 28px}
+.footer a{color:var(--muted)}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#2a1016;color:#fff;padding:10px 18px;border-radius:999px;font-size:.9rem;opacity:0;pointer-events:none;transition:opacity .2s;z-index:80;max-width:90vw}
+.toast.show{opacity:1}
+.prompter{position:fixed;inset:0;z-index:60;background:#0b0b0f;color:#f5f5f5;display:flex;flex-direction:column}
+.prompter[hidden]{display:none}
+.pbar{display:flex;flex-wrap:wrap;align-items:center;gap:6px;padding:8px 10px;background:#18181f;border-bottom:1px solid #2c2c36}
+.pbar .btn{background:#26262f;color:#f5f5f5;border-color:#3a3a46;padding:6px 11px}
+.pbar .btn.primary{background:var(--accent);border-color:var(--accent)}
+.pbar label{display:flex;align-items:center;gap:6px;font-size:.9rem}
+.pbar input[type=range]{width:110px}
+.pinfo{font-variant-numeric:tabular-nums;font-weight:700;margin-right:6px}
+.pview{position:relative;flex:1;overflow:hidden}
+.ptext{position:absolute;left:0;right:0;top:0;padding:0 6%;font-size:44px;line-height:1.45;font-weight:600;white-space:normal;overflow-wrap:anywhere;will-change:transform}
+.ptext.mirror{transform:scaleX(-1)}
+.ptext .w.done{color:#6b6b78}
+.ptext .w.now{color:#fde047}
+.ptext .p{color:#f472b6;font-size:.6em;vertical-align:middle}
+.pline{position:absolute;left:0;right:0;top:35%;height:0;border-top:2px dashed rgba(253,224,71,.45);pointer-events:none}
+.pcount{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:120px;font-weight:800;color:#fde047;background:rgba(11,11,15,.6)}
+.pcount[hidden]{display:none}
+@media (prefers-reduced-motion: reduce){.toast{transition:none}}
+</style>
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased min-h-screen flex flex-col">
+<body>
+<header class="header">
+  <h1>Script Timer &amp; Teleprompter</h1>
+  <div class="header-sub">How long will your script take to say? · then read it on a word-timed teleprompter · free, private</div>
+</header>
 
-    <!-- Header -->
-    <header class="bg-white border-b border-slate-200 sticky top-0 z-40">
-        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-2 font-black text-slate-900 text-lg sm:text-xl tracking-tight">
-                <span class="w-8 h-8 rounded-lg bg-blue-600 text-white flex items-center justify-center text-sm font-black shadow-sm">1P</span>
-                <span>Short-Form Video Script Timer</span>
-            </a>
-            <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-blue-50 text-blue-700 border border-blue-200">
-                2026 US Edition
-            </span>
-        </div>
-    </header>
+<!-- ADSENSE START: top -->
+<div class="ad-box ad-top">
+  <ins class="adsbygoogle" style="display:block;height:60px;max-height:90px" data-ad-client="ca-pub-2228289204702106" data-ad-slot="3824727725" data-ad-format="horizontal" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+<!-- ADSENSE END: top -->
 
-    <!-- Main Workspace -->
-    <main class="max-w-6xl mx-auto px-4 py-6 flex-grow w-full">
-        <!-- Title Banner -->
-        <div class="mb-8 text-center max-w-2xl mx-auto">
-            <h1 class="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 tracking-tight mb-2">Short-Form Video Script Timer</h1>
-            <p class="text-sm sm:text-base text-slate-600">Calculate exact spoken duration of your TikTok, YouTube Shorts, and Reels scripts based on normal, fast, and energetic speaking speeds.</p>
-        </div>
-
-        <!-- 2-Column Gold Standard Layout -->
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-            <!-- Left: Input Form (6 cols) -->
-            <div class="lg:col-span-6 bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-slate-200">
-                <h2 class="text-base font-bold text-slate-900 mb-4 pb-2 border-b border-slate-100 flex items-center gap-2">
-                    <span class="w-2 h-2 rounded-full bg-blue-600"></span>
-                    <span>Input Parameters</span>
-                </h2>
-                
-        <div class="space-y-4">
-            <div>
-                <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Primary Value / Amount ($)</label>
-                <div class="relative">
-                    <span class="absolute left-3 top-3 text-slate-400 font-bold">$</span>
-                    <input type="text" id="primaryVal" value="1,000" class="w-full pl-8 pr-4 py-3 bg-white border border-slate-300 rounded-xl font-semibold text-slate-800 text-base focus:ring-2 focus:ring-blue-500 focus:outline-none" placeholder="1,000">
-                </div>
-            </div>
-            <div>
-                <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Secondary Parameter / Multiplier</label>
-                <input type="number" id="secVal" value="12" min="1" class="w-full px-4 py-3 bg-white border border-slate-300 rounded-xl font-semibold text-slate-800 text-base focus:ring-2 focus:ring-blue-500 focus:outline-none">
-            </div>
-            <div>
-                <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Calculation Category</label>
-                <select id="calcCat" class="w-full px-4 py-3 bg-white border border-slate-300 rounded-xl font-semibold text-slate-800 text-base focus:ring-2 focus:ring-blue-500 focus:outline-none">
-                    <option value="standard">Standard US Model (Benchmark)</option>
-                    <option value="conservative">Conservative Estimate (-10%)</option>
-                    <option value="growth">Accelerated Target (+15%)</option>
-                </select>
-            </div>
-        </div>
-        
-                <button type="button" onclick="calculate()" class="mt-6 w-full py-3.5 bg-blue-600 hover:bg-blue-700 active:scale-[0.99] text-white font-black text-base rounded-xl shadow-md transition duration-150 cursor-pointer whitespace-nowrap">
-                    Calculate Now
-                </button>
-            </div>
-
-            <!-- Right: Results Card (6 cols sticky) -->
-            <div class="lg:col-span-6 lg:sticky lg:top-24">
-                <div id="resultCard" class="hidden">
-                    
-        <div class="bg-blue-600 text-white p-6 rounded-2xl shadow-md mb-6">
-            <p class="text-xs uppercase font-bold tracking-wider opacity-90 mb-1">Estimated Annual Result</p>
-            <h3 id="resPrimary" class="text-3xl sm:text-4xl font-black tracking-tight">$0</h3>
-            <p class="text-xs mt-2 opacity-80">Calculated under standard US benchmarking formulas</p>
-        </div>
-        <div class="space-y-3 text-sm text-slate-700 bg-white p-5 rounded-2xl border border-slate-200">
-            <div class="flex justify-between pb-2 border-b border-slate-100">
-                <span class="text-slate-500">Monthly Equivalent:</span>
-                <span id="resMonthly" class="font-bold text-slate-900">$0</span>
-            </div>
-            <div class="flex justify-between pt-1">
-                <span class="font-bold text-slate-900">Growth / Variance Index:</span>
-                <span id="resBenchmark" class="font-black text-blue-600">0%</span>
-            </div>
-        </div>
-        
-                    <div class="mt-4 flex gap-3">
-                        <button type="button" onclick="copyResults()" class="flex-1 py-3 bg-slate-900 hover:bg-slate-800 text-white font-bold text-sm rounded-xl transition shadow-sm cursor-pointer whitespace-nowrap">
-                            Copy Results
-                        </button>
-                        <button type="button" onclick="resetForm()" class="px-5 py-3 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-sm rounded-xl transition cursor-pointer whitespace-nowrap">
-                            Reset
-                        </button>
-                    </div>
-                </div>
-                <!-- Initial Placeholder -->
-                <div id="placeholderCard" class="p-8 text-center border-2 border-dashed border-slate-200 rounded-2xl text-slate-400">
-                    <p class="text-sm font-semibold">Enter your inputs on the left and click "Calculate Now" to view full projections.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- E-E-A-T Editorial FAQ Accordion -->
-        <section class="mt-14 max-w-3xl mx-auto bg-white p-6 sm:p-8 rounded-2xl border border-slate-200">
-            <h2 class="text-lg sm:text-xl font-black text-slate-900 mb-4">Frequently Asked Questions</h2>
-            <div class="space-y-3">
-                
-    <!-- In-Depth Guidebook CTA Banner (4-1-4 Compliance) -->
-    <div class="mt-8 mb-8 p-6 bg-gradient-to-r from-indigo-50 to-blue-50 rounded-2xl border border-indigo-100 flex flex-col sm:flex-row items-center justify-between gap-4">
-      <div>
-        <span class="inline-block px-3 py-1 bg-indigo-600 text-white text-xs font-bold rounded-full mb-2">COMPLETE 2026 HANDBOOK</span>
-        <h3 class="text-lg font-bold text-gray-900">Want to master the statutory details? Read our in-depth guide</h3>
-        <p class="text-xs text-gray-600 mt-1">Explore official calculation formulas, edge-case exemptions, and strategic checklists.</p>
+<main class="wrap">
+  <div class="grid2">
+    <section class="card" id="setup" aria-labelledby="in-h">
+      <h2 id="in-h">1. Your script</h2>
+      <label class="lbl" for="script">Paste or write your script <span class="hint">(up to 20,000 characters)</span></label>
+      <textarea id="script" maxlength="20000" autocomplete="off" placeholder="Hi, I’m Sam. In the next minute I’ll show you… [pause] Let’s go!"></textarea>
+      <p class="hint" id="stats" aria-live="polite"></p>
+      <p class="hint">Add <strong>[pause]</strong> where you want a beat. It is shown on the teleprompter but not read or counted as a word. Your script is saved in this browser only.</p>
+      <div class="row">
+        <div><label class="lbl" for="wpm">Pace (words per minute)</label><input id="wpm" type="number" min="60" max="250" step="1" value="150" inputmode="numeric"></div>
+        <div><label class="lbl" for="target">Target length</label>
+          <select id="target"><option value="15">15 seconds</option><option value="30">30 seconds</option><option value="45">45 seconds</option><option value="60" selected>60 seconds</option><option value="90">90 seconds</option><option value="120">2 minutes</option><option value="180">3 minutes</option></select></div>
+        <div><label class="lbl" for="pause">Each [pause]</label>
+          <select id="pause"><option value="0.5">0.5 second</option><option value="1" selected>1 second</option><option value="2">2 seconds</option></select></div>
       </div>
-      <a href="/guides/guide.html" class="whitespace-nowrap px-5 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-xl shadow-md transition flex items-center gap-2 text-xs shrink-0">
-        Read In-Depth Guide &rarr;
-      </a>
-    </div>
-
-    <details class="group border border-slate-200 rounded-xl p-4 transition">
-                    <summary class="font-bold text-slate-800 text-sm cursor-pointer flex justify-between items-center select-none">
-                        <span>How accurate are these calculations?</span>
-                        <span class="text-blue-600 font-bold group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p class="mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed">
-                        Calculations use 2026 statutory formulas and verified standard economic models. While highly accurate for benchmarking, always consult a certified professional for individual legal or financial filings.
-                    </p>
-                </details>
-                <details class="group border border-slate-200 rounded-xl p-4 transition">
-                    <summary class="font-bold text-slate-800 text-sm cursor-pointer flex justify-between items-center select-none">
-                        <span>Is my personal or financial data stored?</span>
-                        <span class="text-blue-600 font-bold group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p class="mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed">
-                        No. 100% of the computations occur locally in your browser's JavaScript engine. Zero personal or financial data is transmitted to or saved on external servers.
-                    </p>
-                </details>
-                <details class="group border border-slate-200 rounded-xl p-4 transition">
-                    <summary class="font-bold text-slate-800 text-sm cursor-pointer flex justify-between items-center select-none">
-                        <span>Can I export or share my calculation results?</span>
-                        <span class="text-blue-600 font-bold group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p class="mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed">
-                        Yes! Click the "Copy Results" button to copy a formatted summary with a link directly to your clipboard for sharing via Slack, email, or messaging apps.
-                    </p>
-                </details>
-            </div>
-        </section>
-    </main>
-
-    <!-- Floating Toast Notification -->
-    <div id="toastNotification" class="fixed bottom-6 left-1/2 transform -translate-x-1/2 bg-slate-900 text-white px-5 py-2.5 rounded-full text-xs font-bold shadow-2xl opacity-0 pointer-events-none transition-opacity duration-200 z-50">
-        Copied to clipboard!
-    </div>
-
-    <!-- Modern Trust Footer -->
-    <footer class="bg-white border-t border-slate-200 py-8 text-center text-xs text-slate-500 mt-12">
-        <div class="max-w-6xl mx-auto px-4 space-y-3">
-            <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 font-semibold text-slate-600">
-                <a href="/terms.html" class="hover:text-blue-600 transition">Terms of Service</a>
-                <span class="text-slate-300">|</span>
-                <a href="/privacy.html" class="hover:text-blue-600 transition">Privacy Policy</a>
-                <span class="text-slate-300">|</span>
-                <a href="/disclaimer.html" class="hover:text-blue-600 transition">Disclaimer</a>
-            </div>
-            <p class="max-w-xl mx-auto text-slate-400">
-                This tool is provided for educational and estimation purposes only. All calculations run client-side.
-            </p>
-            <p>&copy; 2026 Short-Form Video Script Timer. All rights reserved.</p>
+      <div class="actions" role="group" aria-label="Pace presets">
+        <button type="button" class="btn sm preset" data-wpm="120">Relaxed 120</button>
+        <button type="button" class="btn sm preset" data-wpm="150">Average 150</button>
+        <button type="button" class="btn sm preset" data-wpm="165">Brisk 165</button>
+      </div>
+      <p class="err" id="err" role="alert" hidden></p>
+      <div class="measure">
+        <strong>⏱️ Measure my pace</strong>
+        <p class="hint">Press Start, read your script aloud the way you will record it, then press Stop. Planned [pause] beats are taken out of the timing.</p>
+        <div class="actions" style="margin-top:4px">
+          <button type="button" class="btn" id="btn-m-start">Start reading</button>
+          <button type="button" class="btn" id="btn-m-stop" disabled>Stop</button>
+          <button type="button" class="btn" id="btn-m-use" hidden>Use this pace</button>
         </div>
-    </footer>
+        <p class="hint" id="m-out" aria-live="polite"></p>
+      </div>
+      <label class="chk"><input type="checkbox" id="countdown" checked> 3-second countdown before the teleprompter starts</label>
+      <div class="actions"><button type="button" class="btn sm" id="btn-clear" disabled>Clear script</button></div>
+    </section>
 
-    <!-- Logic Script -->
-    <script>
-        
-        function calculate() {
-            const prim = parseFloat(document.getElementById('primaryVal').value.replace(/,/g, '')) || 0;
-            const sec = parseFloat(document.getElementById('secVal').value) || 1;
-            const cat = document.getElementById('calcCat').value;
-            
-            let mult = 1.0;
-            if (cat === 'conservative') mult = 0.90;
-            if (cat === 'growth') mult = 1.15;
-            
-            const total = prim * sec * mult;
-            const monthly = total / 12;
-            const rate = ((total / (prim || 1)) * 10).toFixed(1);
-            
-            document.getElementById('resPrimary').textContent = '$' + Math.round(total).toLocaleString('en-US');
-            document.getElementById('resMonthly').textContent = '$' + Math.round(monthly).toLocaleString('en-US');
-            document.getElementById('resBenchmark').textContent = rate + '%';
-            
-            document.getElementById('resultCard').classList.remove('hidden');
-        }
-        
+    <section class="card result" aria-labelledby="out-h">
+      <h2 id="out-h">2. How long it takes</h2>
+      <div class="big-time" id="t-est" aria-live="polite">0:00</div>
+      <p class="hint" id="t-detail"></p>
+      <p class="fit" id="fit"></p>
+      <p class="hint" id="fit-words"></p>
+      <button type="button" class="btn primary big" id="btn-prompt" disabled>▶ Open teleprompter</button>
+      <div class="actions">
+        <button type="button" class="btn" id="btn-copy" disabled>📋 Copy</button>
+        <button type="button" class="btn" id="btn-share" disabled>📤 Share</button>
+      </div>
+      <h3 id="tbl-h">Word budget at 150 wpm (no pauses)</h3>
+      <table aria-labelledby="tbl-h"><thead><tr><th scope="col">Length</th><th scope="col">Words that fit</th></tr></thead><tbody id="tbl"></tbody></table>
+    </section>
+  </div>
 
-        function copyResults() {
-            const resCard = document.getElementById('resultCard');
-            const lines = [];
-            lines.push("Short-Form Video Script Timer - Calculation Summary");
-            lines.push("=============================");
-            resCard.querySelectorAll('.flex.justify-between').forEach(el => {
-                const k = el.querySelector('span:first-child')?.innerText || '';
-                const v = el.querySelector('span:last-child')?.innerText || '';
-                if (k && v) lines.push(k + ' ' + v);
-            });
-            lines.push("-----------------------------");
-            lines.push("👉 Try it here: https://us-youtube-shorts-teleprompter.enjoy-onepage.com/");
-            
-            const textToCopy = lines.join('\n');
-            if (navigator.clipboard) {
-                navigator.clipboard.writeText(textToCopy).then(() => showToast());
-            } else {
-                const ta = document.createElement('textarea');
-                ta.value = textToCopy;
-                document.body.appendChild(ta);
-                ta.select();
-                document.execCommand('copy');
-                document.body.removeChild(ta);
-                showToast();
-            }
-        }
+<!-- ADSENSE START: mid (right after the result card) -->
+<div class="ad-box ad-mid">
+  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2228289204702106" data-ad-slot="1186914926" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+<!-- ADSENSE END: mid -->
 
-        function showToast() {
-            const t = document.getElementById('toastNotification');
-            t.classList.remove('opacity-0', 'pointer-events-none');
-            setTimeout(() => {
-                t.classList.add('opacity-0', 'pointer-events-none');
-            }, 2200);
-        }
+  <section class="card" aria-labelledby="how-h">
+    <h2 id="how-h">🧮 How the timing works</h2>
+    <ul>
+      <li><strong>Time = words ÷ pace + pauses.</strong> 150 words at 150 words per minute take 60 seconds; two 1-second [pause] beats make it 62 seconds.</li>
+      <li><strong>Words:</strong> groups of letters or numbers separated by spaces. Standalone symbols such as a dash are not counted, and numbers count as one word even if they take longer to say, so leave a little room.</li>
+      <li><strong>Pace:</strong> about 150 words per minute is a common average for English speech. Speakers who are easy to follow range from about 120 to 165. Your own measured pace is the most accurate.</li>
+      <li><strong>Teleprompter:</strong> it moves one word at a time at your pace and holds on each [pause], so reading along takes the estimated time. Speed changes apply from the current word on.</li>
+    </ul>
+    <p class="src">Source: Baruch College, City University of New York, Tools for Clear Speech, “Speaking Rate”: the average English speaker talks at about 150 words per minute (citing the National Center for Voice and Speech), with examples of clear speech at about 120 and 165 words per minute; speaking rate is words divided by minutes. Checked September 2026.</p>
+  </section>
 
-        function resetForm() {
-            document.getElementById('resultCard').classList.add('hidden');
-            document.getElementById('placeholderCard').classList.remove('hidden');
-        }
+  <section class="card" id="faq" aria-labelledby="faq-h">
+    <h2 id="faq-h">❓ Frequently asked questions</h2>
+    <div class="faq-item"><h3>How is the time calculated?</h3><p>Time equals the number of words divided by your pace in words per minute, plus any [pause] beats you add. For example, 150 words at 150 words per minute take 60 seconds, and two 1-second pauses make it 62 seconds. Words are counted as groups of letters or numbers separated by spaces.</p></div>
+    <div class="faq-item"><h3>What pace should I use?</h3><p>About 150 words per minute is a common average for English speech. The best number is your own, so use Measure my pace: read your script aloud once, and the page works out your words per minute and uses it for the timing and the teleprompter.</p></div>
+    <div class="faq-item"><h3>How many words fit in 60 seconds?</h3><p>At 150 words per minute, about 150 words fit in 60 seconds, 75 in 30 seconds and 37 in 15 seconds. At a faster 165 words per minute, about 165 words fit in 60 seconds. The table on this page updates for your pace.</p></div>
+    <div class="faq-item"><h3>How does the teleprompter keep pace?</h3><p>It moves word by word at your words per minute and holds on each [pause] for the length you chose, so reading along takes the same time as the estimate. You can pause, restart, change speed while reading, make the text larger and mirror it for a teleprompter glass.</p></div>
+    <div class="faq-item"><h3>Is my script saved or uploaded?</h3><p>Your script and settings are saved only in this browser so they are there next time. They are never sent to us, and share links contain only your pace and target, not your script. Use Clear script to delete it.</p></div>
+  </section>
 
-        // Auto calculate on load
-        window.addEventListener('DOMContentLoaded', () => {
-            calculate();
-            document.getElementById('placeholderCard').classList.add('hidden');
-        });
-    </script>
+  <section class="card notice" aria-labelledby="note-h">
+    <h2 id="note-h">⚠️ Please note</h2>
+    <p>Times are estimates. Real recordings vary with delivery, numbers, names and edits, so do a practice read and leave a little room under any hard time limit. Check the current length limits of the app or site you post to.</p>
+  </section>
+</main>
+
+<!-- ADSENSE START: bottom -->
+<div class="ad-box ad-bottom">
+  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2228289204702106" data-ad-slot="3416334507" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+<!-- ADSENSE END: bottom -->
+
+<footer class="footer">
+  <p>A free script timer and teleprompter. Your script stays in this browser and is never sent to us.</p>
+  <p><a href="/disclaimer.html">Disclaimer</a> | <a href="/privacy.html">Privacy Policy</a> | <a href="/terms.html">Terms of Service</a></p>
+</footer>
+
+<div class="prompter" id="prompter" role="dialog" aria-modal="true" aria-label="Teleprompter" hidden>
+  <div class="pbar">
+    <span class="pinfo" id="pr-time">0:00 / 0:00</span>
+    <span class="pinfo" id="pr-wpm">150 wpm</span>
+    <button type="button" class="btn primary" id="pr-play">▶ Start</button>
+    <button type="button" class="btn" id="pr-restart">↺ Restart</button>
+    <button type="button" class="btn" id="pr-slower" aria-label="Slower">− 10</button>
+    <button type="button" class="btn" id="pr-faster" aria-label="Faster">+ 10</button>
+    <label>Size <input type="range" id="pr-size" min="28" max="80" step="2" value="44"></label>
+    <label><input type="checkbox" id="pr-mirror"> Mirror</label>
+    <button type="button" class="btn" id="pr-close">✕ Close</button>
+  </div>
+  <div class="pview" id="pr-view"><div class="ptext" id="pr-text"></div><div class="pline" aria-hidden="true"></div><div class="pcount" id="pr-count" hidden></div></div>
+</div>
+
+<div id="global-ux-toast" class="toast" role="status" aria-live="polite"></div>
+
+<!-- LOGIC START -->
+<script>
+(function () {
+  'use strict';
+  var SITE = 'https://us-youtube-shorts-teleprompter.enjoy-onepage.com';
+  var TOOL_NAME = 'Script Timer & Teleprompter';
+  var KS = 'prompter.script.v1', KP = 'prompter.settings.v1', MAXC = 20000, WMIN = 60, WMAX = 250;
+  var TARGETS = [15, 30, 45, 60, 90, 120, 180], PAUSES = [0.5, 1, 2];
+  var TLABEL = { 15: '15-second', 30: '30-second', 45: '45-second', 60: '60-second', 90: '90-second', 120: '2-minute', 180: '3-minute' };
+  var TROW = { 15: '15 seconds', 30: '30 seconds', 45: '45 seconds', 60: '60 seconds', 90: '90 seconds', 120: '2 minutes', 180: '3 minutes' };
+  var PAUSE_RE = /^\[pause\]$/i, WORD_RE = /[\p{L}\p{N}]/u;
+
+  function $(id) { return document.getElementById(id); }
+  function on(id, ev, fn) { var el = $(id); if (el) el.addEventListener(ev, fn); }
+  function setText(id, t) { var el = $(id); if (el) el.textContent = t; }
+  function fmt(n) { return n.toLocaleString('en-US'); }
+  function plural(n, one, many) { return fmt(n) + ' ' + (n === 1 ? one : many); }
+  function sec1(s) { return (Math.round(s * 10) / 10).toFixed(1); }
+  function clock(s) { var t = Math.round(s), m = Math.floor(t / 60), r = t % 60; return m + ':' + (r < 10 ? '0' : '') + r; }
+  function setErr(m) { var e = $('err'); if (e) { e.textContent = m || ''; e.hidden = !m; } }
+
+  /* ---------- script parsing: lines of tokens; a token is a word (has a letter or number), a [pause], or a symbol ---------- */
+  function parse(text) {
+    var lines = String(text).replace(/\[pause\]/gi, ' [pause] ').split('\n');
+    var out = [], words = 0, pauses = 0;
+    lines.forEach(function (ln) {
+      var toks = ln.split(/\s+/).filter(Boolean).map(function (t) {
+        if (PAUSE_RE.test(t)) { pauses++; return { t: t, k: 'p' }; }
+        if (WORD_RE.test(t)) { words++; return { t: t, k: 'w' }; }
+        return { t: t, k: 's' };
+      });
+      out.push(toks);
+    });
+    return { lines: out, words: words, pauses: pauses };
+  }
+
+  /* ---------- settings (validated) ---------- */
+  var S = { wpm: 150, target: 60, pause: 1, size: 44, mirror: false, countdown: true };
+  function validWpm(v) { return typeof v === 'number' && Number.isInteger(v) && v >= WMIN && v <= WMAX; }
+  function loadSettings() {
+    var v = null; try { v = JSON.parse(localStorage.getItem(KP)); } catch (e) { v = null; }
+    if (!v || typeof v !== 'object') return;
+    if (validWpm(v.wpm)) S.wpm = v.wpm;
+    if (TARGETS.indexOf(v.target) >= 0) S.target = v.target;
+    if (PAUSES.indexOf(v.pause) >= 0) S.pause = v.pause;
+    if (Number.isInteger(v.size) && v.size >= 28 && v.size <= 80) S.size = v.size;
+    if (typeof v.mirror === 'boolean') S.mirror = v.mirror;
+    if (typeof v.countdown === 'boolean') S.countdown = v.countdown;
+  }
+  var saveNote = '';
+  function saveSettings() { try { localStorage.setItem(KP, JSON.stringify(S)); return true; } catch (e) { return false; } }
+  function saveScript(v) {
+    try { if (v) localStorage.setItem(KS, v); else localStorage.removeItem(KS); saveNote = ''; }
+    catch (e) { saveNote = 'Could not save your script in this browser. Copy it somewhere safe.'; }
+  }
+
+  /* ---------- estimate ---------- */
+  var P = parse('');
+  function estimate() { return P.words * 60 / S.wpm + P.pauses * S.pause; }
+  function tooLong() { var ta = $('script'); return !!ta && ta.value.length > MAXC; }
+  function render() {
+    var ta = $('script'), v = ta ? ta.value : '';
+    P = parse(v);
+    var est = estimate(), words = P.words, tl = tooLong();
+    var stat = plural(words, 'word', 'words') + ' · ' + plural(P.pauses, 'pause', 'pauses') + ' · ' + fmt(v.length) + ' characters';
+    setText('stats', saveNote ? stat + ' · ' + saveNote : stat);
+    setText('t-est', clock(est));
+    var detail = words ? plural(words, 'word', 'words') + ' at ' + S.wpm + ' wpm = ' + sec1(words * 60 / S.wpm) + ' s' : 'No words yet.';
+    if (P.pauses && words) detail += ', plus ' + plural(P.pauses, 'pause', 'pauses') + ' × ' + S.pause + ' s = ' + sec1(est) + ' s';
+    setText('t-detail', detail);
+    var fit = $('fit'), over = est - S.target, lbl = TLABEL[S.target];
+    if (fit) {
+      fit.className = 'fit';
+      if (!words) fit.textContent = 'Add your script to see if it fits.';
+      else if (Math.abs(over) < 0.05) { fit.textContent = 'Right on the ' + lbl + ' target.'; fit.className = 'fit ok'; }
+      else if (over < 0) { fit.textContent = 'Fits the ' + lbl + ' target with ' + sec1(-over) + ' s to spare.'; fit.className = 'fit ok'; }
+      else { fit.textContent = 'Over the ' + lbl + ' target by ' + sec1(over) + ' s. Cut about ' + plural(Math.ceil(over * S.wpm / 60 - 1e-9), 'word', 'words') + ' at ' + S.wpm + ' wpm.'; fit.className = 'fit over'; }
+    }
+    var room = Math.max(0, S.target - P.pauses * S.pause), fitN = Math.floor(room * S.wpm / 60 + 1e-9);
+    setText('fit-words', 'At ' + S.wpm + ' wpm, about ' + plural(fitN, 'word fits', 'words fit') + ' in ' + TROW[S.target] + (P.pauses ? ' with your ' + plural(P.pauses, 'pause', 'pauses') + '.' : '.'));
+    setText('tbl-h', 'Word budget at ' + S.wpm + ' wpm (no pauses)');
+    var tb = $('tbl');
+    if (tb) {
+      tb.innerHTML = '';
+      TARGETS.forEach(function (t) {
+        var tr = document.createElement('tr'), a = document.createElement('td'), b = document.createElement('td');
+        a.textContent = TROW[t]; b.textContent = fmt(Math.floor(t * S.wpm / 60 + 1e-9)); tr.appendChild(a); tr.appendChild(b); tb.appendChild(tr);
+      });
+    }
+    ['btn-prompt', 'btn-copy', 'btn-share'].forEach(function (id) { var b = $(id); if (b) b.disabled = !words || tl; });
+    var bc = $('btn-clear'); if (bc) bc.disabled = !v;
+    var ms = $('btn-m-start'); if (ms) ms.disabled = !words || tl || measuring !== null;
+    Array.prototype.forEach.call(document.querySelectorAll('.preset'), function (b) { b.classList.toggle('on', +b.getAttribute('data-wpm') === S.wpm); });
+  }
+  function onScript() {
+    var ta = $('script'), v = ta ? ta.value : '';
+    if (v.length > MAXC) { setErr('Keep the script to 20,000 characters or fewer.'); render(); return; }
+    if ($('err') && $('err').textContent.indexOf('script') >= 0) setErr('');
+    saveScript(v); render();
+  }
+  function setWpm(n, fromField) {
+    if (!validWpm(n)) { setErr('Pace must be a whole number from ' + WMIN + ' to ' + WMAX + ' words per minute.'); return false; }
+    setErr(''); S.wpm = n; if (!fromField && $('wpm')) $('wpm').value = String(n);
+    saveSettings(); render(); return true;
+  }
+
+  /* ---------- measure my pace ---------- */
+  var measuring = null, measured = 0;
+  on('btn-m-start', 'click', function () {
+    if (!P.words) return;
+    measuring = performance.now(); measured = 0;
+    $('btn-m-stop').disabled = false; $('btn-m-use').hidden = true;
+    setText('m-out', 'Timing… read your script aloud now.'); render();
+  });
+  on('btn-m-stop', 'click', function () {
+    if (measuring === null) return;
+    var secs = (performance.now() - measuring) / 1000, speak = secs - P.pauses * S.pause;
+    measuring = null; $('btn-m-stop').disabled = true; render();
+    if (secs < 3 || speak <= 0) { setText('m-out', 'That was too short to measure. Read the whole script, then press Stop.'); return; }
+    var w = Math.round(P.words / speak * 60);
+    if (w < WMIN || w > WMAX) { setText('m-out', 'That works out to ' + w + ' words per minute, outside 60–250. Check that you read the whole script and try again.'); return; }
+    measured = w;
+    setText('m-out', 'You read ' + plural(P.words, 'word', 'words') + ' in ' + sec1(secs) + ' seconds' + (P.pauses ? ' (' + sec1(speak) + ' s without pauses)' : '') + ': ' + w + ' words per minute.');
+    $('btn-m-use').hidden = false; $('btn-m-use').textContent = 'Use ' + w + ' wpm';
+  });
+  on('btn-m-use', 'click', function () { if (measured && setWpm(measured)) { $('btn-m-use').hidden = true; showToastNotification('Pace set to ' + measured + ' words per minute.'); } });
+
+  /* ---------- teleprompter: word-timed, holds on pauses ---------- */
+  var T = { items: [], idx: 0, frac: 0, playing: false, counting: false, last: 0, elapsed: 0, raf: 0, done: false, timers: [], opener: null, painted: -1 };
+  var reduce = window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)') : null;
+  function buildPrompter() {
+    var box = $('pr-text'); if (!box) return;
+    box.innerHTML = ''; T.items = [];
+    P.lines.forEach(function (toks, li) {
+      if (li) box.appendChild(document.createElement('br'));
+      toks.forEach(function (tk) {
+        var s = document.createElement('span');
+        s.className = tk.k === 'p' ? 'p' : tk.k === 's' ? 's' : 'w';
+        s.textContent = tk.k === 'p' ? '⏸ pause' : tk.t;
+        box.appendChild(s); box.appendChild(document.createTextNode(' '));
+        if (tk.k !== 's') T.items.push({ k: tk.k, el: s });
+      });
+    });
+  }
+  function itemDur(it) { return it.k === 'p' ? S.pause : 60 / S.wpm; }
+  function advance(dt) {
+    var rem = dt;
+    while (rem > 0 && T.idx < T.items.length) {
+      var d = itemDur(T.items[T.idx]), need = (1 - T.frac) * d;
+      if (rem >= need) { rem -= need; T.idx++; T.frac = 0; } else { T.frac += rem / d; rem = 0; }
+    }
+    if (T.idx >= T.items.length) { T.done = true; T.playing = false; }
+  }
+  function markTo(i) {
+    if (T.painted === i) return;
+    if (T.painted < 0 || i < T.painted) { T.items.forEach(function (it, k) { it.el.classList.toggle('done', k < i); it.el.classList.remove('now'); }); }
+    else { for (var k = T.painted; k < i && k < T.items.length; k++) { T.items[k].el.classList.add('done'); T.items[k].el.classList.remove('now'); } }
+    if (i < T.items.length) T.items[i].el.classList.add('now');
+    T.painted = i;
+  }
+  function paint() {
+    var total = estimate();
+    setText('pr-time', clock(T.elapsed) + ' / ' + clock(total));
+    setText('pr-wpm', S.wpm + ' wpm');
+    var pb = $('pr-play'); if (pb) pb.textContent = T.done ? '✓ Done' : T.playing ? '⏸ Pause' : (T.idx || T.frac ? '▶ Resume' : '▶ Start');
+    if (pb) pb.disabled = T.done;
+    markTo(T.done ? T.items.length : T.idx);
+    var view = $('pr-view'), box = $('pr-text'); if (!view || !box || !T.items.length) return;
+    var cur = T.items[Math.min(T.idx, T.items.length - 1)].el, y = cur.offsetTop;
+    if (!(reduce && reduce.matches) && !T.done && T.idx + 1 < T.items.length) { var nx = T.items[T.idx + 1].el; y += (nx.offsetTop - cur.offsetTop) * T.frac; }
+    var shift = Math.max(0, y - view.clientHeight * 0.35);
+    box.style.transform = 'translateY(' + (-shift).toFixed(1) + 'px)' + (S.mirror ? ' scaleX(-1)' : '');
+  }
+  function frame() {
+    if (!T.playing) return;
+    var now = performance.now(), dt = Math.min(0.25, Math.max(0, (now - T.last) / 1000));
+    T.last = now; T.elapsed += dt; advance(dt); paint();
+    if (T.playing) T.raf = requestAnimationFrame(frame);
+  }
+  function clearTimers() { T.timers.forEach(clearTimeout); T.timers = []; var c = $('pr-count'); if (c) c.hidden = true; }
+  function play() {
+    if (T.done || T.playing) return;
+    clearTimers();
+    var go = function () { clearTimers(); T.playing = true; T.last = performance.now(); paint(); T.raf = requestAnimationFrame(frame); };
+    if (S.countdown && !T.idx && !T.frac && !T.elapsed) {
+      var c = $('pr-count'), n = 3;
+      if (c) { c.hidden = false; c.textContent = '3'; }
+      setText('pr-play', '⏸ Cancel');
+      T.counting = true;
+      for (var k = 1; k <= 3; k++) {
+        (function (k) { T.timers.push(setTimeout(function () { if (k < 3) { if (c) c.textContent = String(n - k); } else { T.counting = false; go(); } }, k * 1000)); })(k);
+      }
+      return;
+    }
+    go();
+  }
+  function pause() { T.playing = false; cancelAnimationFrame(T.raf); if (T.counting) { T.counting = false; clearTimers(); } paint(); }
+  function restart() { pause(); T.idx = 0; T.frac = 0; T.elapsed = 0; T.done = false; T.painted = -1; paint(); }
+  function openPrompter() {
+    if (!P.words || tooLong()) return;
+    T.opener = document.activeElement;
+    buildPrompter(); T.idx = 0; T.frac = 0; T.elapsed = 0; T.done = false; T.playing = false; T.painted = -1;
+    var pr = $('prompter'); if (pr) pr.hidden = false;
+    document.body.style.overflow = 'hidden';
+    var sz = $('pr-size'); if (sz) sz.value = String(S.size);
+    var mi = $('pr-mirror'); if (mi) mi.checked = S.mirror;
+    var box = $('pr-text'); if (box) { box.style.fontSize = S.size + 'px'; box.classList.toggle('mirror', S.mirror); }
+    paint(); var pb = $('pr-play'); if (pb) pb.focus();
+  }
+  function closePrompter() {
+    pause(); clearTimers();
+    var pr = $('prompter'); if (pr) pr.hidden = true;
+    document.body.style.overflow = '';
+    if (T.opener && T.opener.focus) T.opener.focus();
+  }
+  function nudge(d) { var n = Math.min(WMAX, Math.max(WMIN, S.wpm + d)); if (n !== S.wpm) { S.wpm = n; if ($('wpm')) $('wpm').value = String(n); saveSettings(); render(); paint(); } }
+
+  /* ---------- toast · copy · share (standard: Web Share -> clipboard -> honest message on failure) ---------- */
+  var toastTimer = null;
+  function showToastNotification(m) {
+    var el = $('global-ux-toast'); if (!el) return;
+    el.textContent = m; el.classList.add('show');
+    clearTimeout(toastTimer); toastTimer = setTimeout(function () { el.classList.remove('show'); }, 2200);
+  }
+  function fallbackCopy(text) {
+    var ta = document.createElement('textarea'); ta.value = text; ta.setAttribute('readonly', '');
+    ta.style.position = 'fixed'; ta.style.opacity = '0'; document.body.appendChild(ta); ta.select();
+    var ok = false; try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+    document.body.removeChild(ta);
+    showToastNotification(ok ? 'Copied! Paste it anywhere to share.' : 'Could not copy. Please select the text and copy it yourself.');
+  }
+  function copyText(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(text).then(function () { showToastNotification('Copied! Paste it anywhere to share.'); }, function () { fallbackCopy(text); });
+    } else { fallbackCopy(text); }
+  }
+  function link() {
+    var q = new URLSearchParams(); q.set('wpm', String(S.wpm)); q.set('target', String(S.target));
+    if (S.pause !== 1) q.set('pause', String(S.pause));
+    return SITE + '/?' + q.toString();
+  }
+  function summary() {
+    if (!P.words) return '';
+    var est = estimate(), over = est - S.target, lbl = TLABEL[S.target];
+    var fit = Math.abs(over) < 0.05 ? 'right on the ' + lbl + ' target' : over < 0 ? 'fits the ' + lbl + ' target with ' + sec1(-over) + ' s to spare' : 'over the ' + lbl + ' target by ' + sec1(over) + ' s';
+    return '🎬 My script: ' + plural(P.words, 'word', 'words') + ' ≈ ' + clock(est) + ' at ' + S.wpm + ' wpm, ' + fit + '.\n👉 ' + TOOL_NAME + ': ' + link();
+  }
+
+  /* ---------- events ---------- */
+  on('script', 'input', onScript);
+  on('wpm', 'input', function () { var raw = $('wpm').value.trim(); setWpm(/^\d+$/.test(raw) ? +raw : NaN, true); });
+  on('wpm', 'change', function () { if (!validWpm(+$('wpm').value)) { $('wpm').value = String(S.wpm); setErr(''); } });
+  on('target', 'change', function () { var t = +$('target').value; if (TARGETS.indexOf(t) >= 0) { S.target = t; saveSettings(); render(); } });
+  on('pause', 'change', function () { var p = +$('pause').value; if (PAUSES.indexOf(p) >= 0) { S.pause = p; saveSettings(); render(); } });
+  on('countdown', 'change', function () { S.countdown = !!$('countdown').checked; saveSettings(); });
+  Array.prototype.forEach.call(document.querySelectorAll('.preset'), function (b) { b.addEventListener('click', function () { setWpm(+b.getAttribute('data-wpm')); }); });
+  on('btn-clear', 'click', function () {
+    if (!window.confirm('Clear your script from this browser?')) return;
+    var ta = $('script'); if (ta) ta.value = '';
+    saveScript(''); setErr(''); render(); showToastNotification('Script cleared.');
+  });
+  on('btn-prompt', 'click', openPrompter);
+  on('pr-play', 'click', function () { if (T.playing || T.counting) pause(); else play(); });
+  on('pr-restart', 'click', restart);
+  on('pr-slower', 'click', function () { nudge(-10); });
+  on('pr-faster', 'click', function () { nudge(10); });
+  on('pr-close', 'click', closePrompter);
+  on('pr-size', 'input', function () { var n = +$('pr-size').value; if (n >= 28 && n <= 80) { S.size = n; $('pr-text').style.fontSize = n + 'px'; saveSettings(); paint(); } });
+  on('pr-mirror', 'change', function () { S.mirror = !!$('pr-mirror').checked; $('pr-text').classList.toggle('mirror', S.mirror); saveSettings(); paint(); });
+  document.addEventListener('keydown', function (e) {
+    var pr = $('prompter'); if (!pr || pr.hidden) return;
+    if (e.key === 'Escape') { e.preventDefault(); closePrompter(); }
+    else if (e.key === ' ' && e.target && e.target.tagName !== 'BUTTON' && e.target.tagName !== 'INPUT') { e.preventDefault(); if (T.playing || T.counting) pause(); else play(); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); nudge(10); }
+    else if (e.key === 'ArrowDown') { e.preventDefault(); nudge(-10); }
+  });
+  on('btn-copy', 'click', function () { if (P.words) copyText(summary()); });
+  on('btn-share', 'click', function () {
+    if (!P.words) return;
+    var text = summary();
+    if (navigator.share) { navigator.share({ title: TOOL_NAME, text: text, url: link() }).catch(function (e) { if (!e || e.name !== 'AbortError') copyText(text); }); }
+    else { copyText(text); }
+  });
+  document.addEventListener('visibilitychange', function () { if (document.hidden && T.playing) pause(); });
+
+  /* ---------- start: saved settings, then link settings (?wpm=150&target=60&pause=1), then the saved script ---------- */
+  (function init() {
+    loadSettings();
+    var q; try { q = new URLSearchParams(location.search); } catch (e) { q = null; }
+    if (q) {
+      var w = q.get('wpm'), t = q.get('target'), p = q.get('pause');
+      if (w && /^\d+$/.test(w) && validWpm(+w)) S.wpm = +w;
+      if (t && TARGETS.indexOf(+t) >= 0) S.target = +t;
+      if (p && PAUSES.indexOf(+p) >= 0) S.pause = +p;
+    }
+    if ($('wpm')) $('wpm').value = String(S.wpm);
+    if ($('target')) $('target').value = String(S.target);
+    if ($('pause')) $('pause').value = String(S.pause);
+    if ($('countdown')) $('countdown').checked = S.countdown;
+    var saved = ''; try { saved = localStorage.getItem(KS) || ''; } catch (e) { saved = ''; }
+    if (typeof saved !== 'string' || saved.length > MAXC) saved = '';
+    if ($('script')) $('script').value = saved;
+    render();
+  })();
+})();
+</script>
+<!-- LOGIC END -->
 </body>
 </html>
